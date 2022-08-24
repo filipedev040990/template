@@ -6,7 +6,6 @@ module.exports = {
     '!<rootDir>/src/**/*Helper.ts',
     '!**/interfaces/**'
   ],
-  preset: '@shelf/jest-mongodb',
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
   transform: {
